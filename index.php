@@ -93,7 +93,7 @@ if (isset($_GET['delete'])) {
 
         .form-box {
             width: 30%;
-            background: white;
+            background: #ffffff;
             padding: 20px;
             box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
             border: 1px solid black;
@@ -135,7 +135,7 @@ if (isset($_GET['delete'])) {
         .btn-delete {
             background: #dc3545;
             color: white;
-            padding: 5px 10px;  
+            padding: 5px 10px;
         }
 
         .btn-edit {
@@ -148,6 +148,7 @@ if (isset($_GET['delete'])) {
         .btn:hover {
             opacity: 0.9;
         }
+
         input {
             box-sizing: border-box;
         }
@@ -236,8 +237,7 @@ if (isset($_GET['delete'])) {
                 <label>Total</label>
                 <input type="text" id="totalValue" readonly>
 
-                <button type="submit" name="save" class="btn btn-save">SAVE</button>
-                <button type="submit" name="update" class="btn btn-update">UPDATE</button>
+                <button type="submit" name="save" id="btn-submit" class="btn btn-save">SAVE</button>
             </form>
         </div>
     </div>
@@ -259,6 +259,12 @@ if (isset($_GET['delete'])) {
             document.getElementById('harga').value = harga;
             document.getElementById('jumlah').value = jumlah;
             updateTotal();
+
+            var btn = document.getElementById('btn-submit');
+            btn.innerText = "UPDATE";
+            btn.name = "update";
+            btn.classList.remove("btn-save");
+            btn.classList.add("btn-update");
         }
 
         document.getElementById('harga').addEventListener('input', updateTotal);
