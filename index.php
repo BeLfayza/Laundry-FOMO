@@ -141,7 +141,8 @@ if (isset($_GET['delete'])) {
         .btn-edit {
             background: #004cff;
             color: white;
-            padding: 5px 10px;
+            padding: 6px 15px;
+            text-decoration: underline;
         }
 
         .btn:hover {
