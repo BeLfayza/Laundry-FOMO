@@ -57,7 +57,7 @@ if (isset($_GET['delete'])) {
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #c2f7ff;
+            background: #ffffff;
             margin: 20px;
         }
 
@@ -76,7 +76,7 @@ if (isset($_GET['delete'])) {
             width: 65%;
             border-collapse: collapse;
             background: white;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
         }
 
         table th,
@@ -95,7 +95,7 @@ if (isset($_GET['delete'])) {
             width: 30%;
             background: white;
             padding: 20px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
             border: 1px solid black;
         }
 
@@ -146,6 +146,9 @@ if (isset($_GET['delete'])) {
 
         .btn:hover {
             opacity: 0.9;
+        }
+        input {
+            box-sizing: border-box;
         }
     </style>
 </head>
