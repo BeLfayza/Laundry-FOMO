@@ -141,7 +141,7 @@ if (isset($_GET['delete'])) {
         .btn-edit {
             background: #004cff;
             color: white;
-            padding: 6px 15px;
+            padding: 5px 10px;
             text-decoration: underline;
         }
 
@@ -191,7 +191,7 @@ if (isset($_GET['delete'])) {
                 <td>{$data['jumlah']}</td>
                 <td>Rp " . number_format($data['total'], 0, ',', '.') . "</td>
                 <td>
-                    <button class='btn btn-edit' onclick=\"editData('{$data['id_laundry']}','{$data['id_pelanggan']}','{$data['id_jenis']}','{$data['harga']}','{$data['jumlah']}')\">Edit</button>
+                    <a class='btn btn-edit' onclick=\"editData('{$data['id_laundry']}','{$data['id_pelanggan']}','{$data['id_jenis']}','{$data['harga']}','{$data['jumlah']}')\">Edit</a>
                     <a class='btn btn-delete' href='?delete={$data['id_laundry']}' onclick=\"return confirm('Yakin hapus?')\">Delete</a>
                 </td>
             </tr>";
