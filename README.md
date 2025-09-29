@@ -2,6 +2,7 @@
 
 <h3>⚠ jangan rename index.php</h3>
 <h3>233 lines</h3>
+https://store.steampowered.com/app/2375550/Like_a_Dragon_Gaiden_The_Man_Who_Erased_His_Name/
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/396fe5bd-0633-4cc3-bc50-5fbbf5c3739a" />
 <div style="display: flex; gap: 10px;">
