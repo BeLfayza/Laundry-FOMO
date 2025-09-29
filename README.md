@@ -7,7 +7,7 @@
 <div style="display: flex;">
   <img
     src="https://github.com/BeLfayza/Laundry-FOMO/blob/main/uhhh/golshin.gif?raw=true"
-    style="width: 150%; object-fit: cover;"
+    style="width: 500px; object-fit: cover;"
   >
   <img
     src="https://github.com/BeLfayza/Laundry-FOMO/blob/main/uhhh/golshi.gif?raw=true"
