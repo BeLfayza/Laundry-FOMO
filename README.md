@@ -1,5 +1,7 @@
 ## biar keliatan aktif github 😹✌
 
+**Last Updated:** 29/09/2025
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/396fe5bd-0633-4cc3-bc50-5fbbf5c3739a" />
 <div style="display: flex; gap: 10px;">
   <img
