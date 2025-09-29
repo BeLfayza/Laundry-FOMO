@@ -11,6 +11,6 @@
   >
   <img
     src="https://github.com/BeLfayza/Laundry-FOMO/blob/main/uhhh/golshi.gif?raw=true"
-    style="width: 411px; height: 415px; object-fit: cover;"
+    style="width: 410px; height: 415px; object-fit: cover;"
   >
 </div>
