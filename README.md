@@ -12,9 +12,10 @@
   >
 </div>
 
+
 - Buy Now LMAO
 
 <a href="https://store.steampowered.com/app/2375550/Like_a_Dragon_Gaiden_The_Man_Who_Erased_His_Name/" target="_blank">
-    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2375550/header.jpg?t=1741337896" alt="Like a Dragon Gaiden">
+    <img width="100%" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2375550/header.jpg?t=1741337896" alt="Like a Dragon Gaiden">
 </a>
 
