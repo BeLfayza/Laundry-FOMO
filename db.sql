@@ -3,24 +3,24 @@ USE db_laundry;
 
 CREATE TABLE pelanggan (
     id_pelanggan INT AUTO_INCREMENT PRIMARY KEY,
-    nama_pelanggan VARCHAR(100) NOT NULL
+    nama_pelanggan VARCHAR(100)
 );
 
 CREATE TABLE jenis_laundry (
     id_jenis INT AUTO_INCREMENT PRIMARY KEY,
-    nama_jenis VARCHAR(100) NOT NULL,
-    harga INT NOT NULL
+    nama_jenis VARCHAR(100),
+    harga INT
 );
 
 CREATE TABLE laundry (
     id_laundry INT AUTO_INCREMENT PRIMARY KEY,
-    id_pelanggan INT NOT NULL,
-    id_jenis INT NOT NULL,
-    tanggal_terima DATE NOT NULL,
-    tanggal_selesai DATE NOT NULL,
-    harga INT NOT NULL,
-    jumlah INT NOT NULL,
-    total INT NOT NULL,
+    id_pelanggan INT,
+    id_jenis INT,
+    tanggal_terima DATE,
+    tanggal_selesai DATE,
+    harga INT,
+    jumlah INT,
+    total INT,
     FOREIGN KEY (id_pelanggan) REFERENCES pelanggan(id_pelanggan),
     FOREIGN KEY (id_jenis) REFERENCES jenis_laundry(id_jenis)
 );
