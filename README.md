@@ -7,10 +7,10 @@
 <div style="display: flex; gap: 10px;">
   <img
     src="https://github.com/BeLfayza/Laundry-FOMO/blob/main/uhhh/golshin.gif?raw=true"
-    style="width: 410px; height: 410px; object-fit: cover;"
+    style="width: 415px; height: 415px; object-fit: cover;"
   >
   <img
     src="https://github.com/BeLfayza/Laundry-FOMO/blob/main/uhhh/golshi.gif?raw=true"
-    style="width: 410px; height: 410px; object-fit: cover;"
+    style="width: 415px; height: 415px; object-fit: cover;"
   >
 </div>
